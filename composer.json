@@ -4,9 +4,15 @@
     "description": "symfony 1.x plugin for Propel.",
     "keywords": ["symfony", "propel", "orm", "active record", "mapping", "database", "persistence"],
     "homepage": "http://www.propelorm.org/",
+    "repositories": [
+        {
+            "url": "https://github.com/vonofreirs/Propel.git",
+            "type": "git"
+        }
+    ],
     "require": {
         "composer/installers": "^v1.12.0",
-        "palepurple/propel1": "~1.7"
+        "ppropel/propel1": "dev-master"
     },
     "extra": {
         "branch-alias": {
